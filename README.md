@@ -1,5 +1,5 @@
 # MDImageNet-CE Script Note
-- 2026-06-20
+- 2026-06-20 outline
 
 ***
 ## Processing
