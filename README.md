@@ -51,15 +51,29 @@ convert_coco(
 
 ***
 ## Visualization
-### [Process_1 : Change VOC XML classes name](./script/process_2_rename_voc_xml_class_name.py)
-### [Process_2 : XML to CSV for BBox statistics](./script/process_3_xml2csv_BBos-statistics.py)
-### [Process_3 : CSV GT and SAM BBox plot](./script/process_4_CSV_BBox_plot_class-MD_##.py)
+### [VisProcess_1 : Change VOC XML classes name](./script/process_2_rename_voc_xml_class_name.py)
+### [VisProcess_2 : XML to CSV for BBox statistics](./script/process_3_xml2csv_BBos-statistics.py)
+### [VisProcess_3 : CSV GT and SAM BBox plot](./script/process_4_CSV_BBox_plot_class-MD_##.py)
 #### GT and SAMBbox ploting example
 <img src="./img/fig2_SAMBBox_plot.png" width="300">
 
 
+
+### [VisProcess_4 : Dataset EDA plot](./script/process_5_dataset_eda_plots.py)
 ### MD classes (Exp/Con)
-###
+<img src="./img/01_label_distribution_behavior_num_adv.png" width="300">
+
+### Quantitative Evaluation of Annotation harmonize
+<img src="./img/02_refinement_kde.png" width="300">
+
+### BBox Structural Diversity: Scale vs. Aspect Ratio
+<img src="./img/03_scale_aspect_ratio.png" width="300">
+
+### Decomposed BBox Inclusion Ratios
+<img src="./img/04_inclusion_ratios.png" width="300">
+
+### Normalized Spatial Distribution of Object Centers
+<img src="./img/05_spatial_heatmap.png" width="300">
 
 
 
