@@ -108,7 +108,7 @@ model.train(dataset_dir="MDCE_COCO/", epochs=100, lr=1e-4)
 ### YOLO TXT with YOLO
 ```python
 from ultralytics import YOLO
-model = YOLO("yolo26xn.pt")
+model = YOLO("yolo26x.pt")
 model.train(data="MDCE_YOLO/data.yaml", epochs=100,  imgsz=640) 
 ```
 
