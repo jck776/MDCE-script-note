@@ -94,8 +94,11 @@ model.train(dataset_dir="MDCE_COCO/", epochs=100, lr=1e-4)
 ```
 
 #### RF-DETRs
+<img src="./img/train_RFDETR-s.png" width="300">
+
 #### RF-DETRm
-#### map log
+<img src="./img/train_RFDETR-m.png" width="300">
+
 
 ### YOLO TXT with YOLO
 ```python
@@ -105,10 +108,16 @@ model.train(data="MDCE_YOLO/data.yaml", epochs=100,  imgsz=640)
 ```
 
 #### YOLOv11n
-#### YOLO26n
-#### YOLO26x
-#### map log
+<img src="./img/train_yolo11n_metrics.png" width="300">
 
+#### YOLO26n
+<img src="./img/train_yolo26n_metrics.png" width="300">
+
+#### YOLO26x
+<img src="./img/train_yolo26x_metrics.png" width="300">
+
+#### YOLO26x960
+<img src="./img/train_yolo26x960_metrics.png" width="300">
 
 
 *** 
