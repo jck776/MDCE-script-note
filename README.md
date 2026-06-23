@@ -2,7 +2,7 @@
 - 2026-06-20 outline
 
 ***
-## Processing
+## Hash and Harmonization Processing
 ### [Porcessing_1 : Polygon to bounding box and filename hashing](./script/Processing_1_Parse_Check_org-xml-polygon-points.py)
 ### [Porcessing_2 : SAM-Derived Bounding Box Harmonization](./script/Processing_2_Refine-BBox_pre_10K-to-refinement_10K-xml_twcc.py)
 ### 
