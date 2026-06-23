@@ -91,7 +91,7 @@ model.train(dataset_dir="MDCE_COCO/", epochs=100, lr=1e-4)
 #### RF-DETRm
 #### map log
 
-### YOLO with YOLO
+### YOLO TXT with YOLO
 ```python
 from ultralytics import YOLO
 model = YOLO("yolo26xn.pt")
