@@ -82,18 +82,8 @@ convert_coco(
 ### MS COCO with RF-DETR
 ```python
 from rfdetr import RFDETRMedium, RFDETRSmall
-
-# model = RFDETRMedium()
-model = RFDETRSmall()
-
-model.train(
-    dataset_dir="MDCE_COCO/", 
-    epochs=100,
-    batch_size=16,
-    grad_accum_steps=1,
-    lr=1e-4,
-    output_dir="RFDETR-s",
-)
+model = RFDETRMedium()
+model.train(dataset_dir="MDCE_COCO/", epochs=100, lr=1e-4)
 ```
 
 #### RF-DETRs
