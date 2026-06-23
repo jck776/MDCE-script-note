@@ -42,6 +42,7 @@
 ## Check
 ### some check scripts...
 #### Check BBox of single image from original pre_10K.xml.
-Script[]()
+Script[Check.BBox](./script/Check_Draw_xml_4points_annotations_for-TLBR2points.py)
 
+<img src="./img/Check_Draw_xml_4points_annotations.jpg" width="300">
 
