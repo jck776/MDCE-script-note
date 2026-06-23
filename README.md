@@ -80,6 +80,9 @@ convert_coco(
 <img src="./img/process_5_mode_inference_and_result_plot.jpg" width="300">
 
 
+### [VisProcess_6 : Training log ploting](./script/watchy_rfdetr_tensorboard_log-github.ipynb)
+- see [Model Training](##model_training)
+
 ***
 ## Model Training
 - To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization.
