@@ -80,11 +80,33 @@ convert_coco(
 ***
 ## Model Training
 ### MS COCO with RF-DETR
+```python
+from rfdetr import RFDETRMedium, RFDETRSmall
+
+# model = RFDETRMedium()
+model = RFDETRSmall()
+
+model.train(
+    dataset_dir="MDCE_COCO/", 
+    epochs=100,
+    batch_size=16,
+    grad_accum_steps=1,
+    lr=1e-4,
+    output_dir="RFDETR-s",
+)
+```
+
 #### RF-DETRs
 #### RF-DETRm
 #### map log
 
 ### YOLO with YOLO
+```python
+from ultralytics import YOLO
+model = YOLO("yolo11n.pt")
+model.train(data="MDCE_YOLO/data.yaml", epochs=100,  imgsz=640) 
+```
+
 #### YOLOv11n
 #### YOLO26n
 #### YOLO26x
