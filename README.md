@@ -1,6 +1,11 @@
 # MDImageNet-CE Script Note
 - 2026-06-20 outline
 
+
+## Workflow of the dataset transformation
+<img src="./img/MDCD_Overview_fig1.jpg" width="700">
+
+
 ***
 ## Hash and Harmonization Processing
 ### [Porcessing_1 : Polygon to bounding box and filename hashing](./script/Processing_1_Parse_Check_org-xml-polygon-points.py)
