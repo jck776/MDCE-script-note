@@ -79,6 +79,7 @@ convert_coco(
 
 ***
 ## Model Training
+- To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization.
 ### MS COCO with RF-DETR
 ```python
 from rfdetr import RFDETRMedium, RFDETRSmall
@@ -93,7 +94,7 @@ model.train(dataset_dir="MDCE_COCO/", epochs=100, lr=1e-4)
 ### YOLO with YOLO
 ```python
 from ultralytics import YOLO
-model = YOLO("yolo11n.pt")
+model = YOLO("yolo26xn.pt")
 model.train(data="MDCE_YOLO/data.yaml", epochs=100,  imgsz=640) 
 ```
 
