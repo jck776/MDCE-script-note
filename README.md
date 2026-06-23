@@ -76,6 +76,9 @@ convert_coco(
 <img src="./img/05_spatial_heatmap.png" width="300">
 
 
+### [VisProcess_5 : Model inference and result ploting](./script/Viz_of_evl_with_models-github.ipynb)
+<img src="./img/process_5_mode_inference_and_result_plot.jpg" width="300">
+
 
 ***
 ## Model Training
