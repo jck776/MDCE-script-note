@@ -43,8 +43,11 @@
 *** 
 ## Check
 ### some check scripts...
-#### Check BBox of single image from original pre_10K.xml.
-Script[Check.BBox](./script/Check_Draw_xml_4points_annotations_for-TLBR2points.py)
+
+#### [Check BBox of single image from original pre_10K.xml.](./script/Check_Draw_xml_4points_annotations_for-TLBR2points.py)
 
 <img src="./img/Check_Draw_xml_4points_annotations.jpg" width="300">
 
+#### [Check image exif and compression](./script/Check_image_exif_dir.py)
+
+<img src="./img/Check_image_exif_dir.jpg" width="300">
