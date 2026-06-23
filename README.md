@@ -53,12 +53,11 @@ convert_coco(
 ## Visualization
 ### [Process_1 : Change VOC XML classes name](./script/process_2_rename_voc_xml_class_name.py)
 ### [Process_2 : XML to CSV for BBox statistics](./script/process_3_xml2csv_BBos-statistics.py)
-### [Process_3 : CSV BBox plot](./script/process_4_CSV_BBox_plot_class-MD_##.py)
+### [Process_3 : CSV GT and SAM BBox plot](./script/process_4_CSV_BBox_plot_class-MD_##.py)
+#### GT and SAMBbox ploting example
+<img src="./img/fig2_SAMBBox_plot.png" width="300">
 
 
-
-
-### GT and SAMBbox ploting
 ### MD classes (Exp/Con)
 ###
 
