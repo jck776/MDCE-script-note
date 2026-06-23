@@ -86,7 +86,7 @@ convert_coco(
 
 
 ### [VisProcess_6 : Training log ploting](./script/watchy_rfdetr_tensorboard_log-github.ipynb)
-- see [Model Training](##model_training)
+- see [Model Training](#model_training)
 
 ***
 ## Model Training
