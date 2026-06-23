@@ -12,9 +12,41 @@
 ## Dataset format converting
 
 ### [Porcessing_3 : Harmonized BBox to PSACAL VOC](./script/Processing_3_BBox2VOC.py)
-### VOC to COCO
-### COCO to YOLO
+### Porcessing_4 : VOC to COCO
 
+#### Train
+```bash
+$ python3 PaddleDetection/tools/x2coco.py \
+         --dataset_type voc \
+        --voc_anno_dir MD2023_CE/MDCE_VOC/train/Annotations_10K_xml \
+        --voc_anno_list MD2023_CE/MDCE_VOC/train/ImageSets/train.txt \
+        --voc_label_list MD2023_CE/MDCE_VOC/label_list.txt \
+        --voc_out_name MD2023_CE/MDCE_VOC/MDCE_COCO_train.json
+```
+
+#### Validation
+```bash
+$ python3 PaddleDetection/tools/x2coco.py \
+         --dataset_type voc \
+        --voc_anno_dir MD2023_CE/MDCE_VOC/evl/Annotations_500_xml \
+        --voc_anno_list MD2023_CE/MDCE_VOC/evl/ImageSets/val.txt \
+        --voc_label_list MD2023_CE/MDCE_VOC/label_list.txt \
+        --voc_out_name MD2023_CE/MDCE_VOC/MDCE_COCO_evl.json
+```
+
+
+
+### Porcessing_5 : COCO to YOLO
+
+```python
+from ultralytics.data.converter import convert_coco
+# convert_coco：把 COCO JSON 轉成 YOLO TXT 格式，並放在 ./coco_converted/
+convert_coco(
+    labels_dir="/home/USER/Data/MD2023_CE/MDCE_COCO/annotations/",
+    use_segments=False,   # 如果只是目標檢測(BBox)，請設為 False。
+    cls91to80=False,      # 客製化資料時防止腳本去尋找不存在的91類映射。
+)
+```
 
 
 ***
