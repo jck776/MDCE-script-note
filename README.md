@@ -60,19 +60,19 @@ convert_coco(
 
 
 ### [VisProcess_4 : Dataset EDA plot](./script/process_5_dataset_eda_plots.py)
-### MD classes (Exp/Con)
+#### MD classes (Exp/Con)
 <img src="./img/01_label_distribution_behavior_num_adv.png" width="300">
 
-### Quantitative Evaluation of Annotation harmonize
+#### Quantitative Evaluation of Annotation harmonize
 <img src="./img/02_refinement_kde.png" width="300">
 
-### BBox Structural Diversity: Scale vs. Aspect Ratio
+#### BBox Structural Diversity: Scale vs. Aspect Ratio
 <img src="./img/03_scale_aspect_ratio.png" width="300">
 
-### Decomposed BBox Inclusion Ratios
+#### Decomposed BBox Inclusion Ratios
 <img src="./img/04_inclusion_ratios.png" width="300">
 
-### Normalized Spatial Distribution of Object Centers
+#### Normalized Spatial Distribution of Object Centers
 <img src="./img/05_spatial_heatmap.png" width="300">
 
 
