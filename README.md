@@ -90,7 +90,20 @@ convert_coco(
 
 ***
 ## Model Training
-- To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization.
+`To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization.`
+
+### Performance Comparison of Object Detection Models under Different Configurations and Dataset Formats
+
+| Model | Resolution | Params (M) | mAP₅₀ | mAP₅₀₋₉₅ | Training Time (h) | Dataset Format |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| YOLO26x | 960×960 | 55.7 | 0.592 | 0.554 | 5.7 | YOLO |
+| YOLO26x | 640×640 | 55.7 | 0.561 | 0.517 | 3.5 | YOLO |
+| YOLO26n | 640×640 | 2.4 | 0.508 | 0.447 | 1.9 | YOLO |
+| YOLO11n | 640×640 | 2.6 | 0.503 | 0.453 | 1.3 | YOLO |
+| RF-DETR-m | 576×576 | 33.7 | 0.635 | 0.578 | 8.3 | COCO |
+| RF-DETR-s | 512×512 | 32.1 | 0.598 | 0.537 | 7.1 | COCO |
+
+
 ### MS COCO with RF-DETR
 ```python
 from rfdetr import RFDETRMedium, RFDETRSmall
