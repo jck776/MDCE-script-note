@@ -90,7 +90,9 @@ convert_coco(
 
 ***
 ## Model Training
-`To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization.`
+
+`To establish a baseline evaluation, training was conducted without applying custom data augmentation or hyperparameter optimization. To maintain an unbiased assessment and eliminate manual selection bias, each configuration was executed for a single trial only. Owing to the inherent stochasticity of the optimization process, the reported results reflect a single realization within the model's overall performance variance.`
+
 
 ### Performance Comparison of Object Detection Models under Different Configurations and Dataset Formats
 
